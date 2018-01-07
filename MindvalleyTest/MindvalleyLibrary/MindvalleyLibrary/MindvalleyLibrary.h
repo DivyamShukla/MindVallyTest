@@ -30,7 +30,14 @@ typedef enum {
 // Get current downloads
 - (NSArray *)currentDownloads;
 
+- (void)setCache:(id)obj forKey:(NSString*)key;
+- (id)getCacheForKey:(NSString *)key;
+- (BOOL)checkCacheForKey:(NSString *)key;
+- (void)clearCacheForKey:(NSString *)key;
+- (void)clearAllCache;
+
 + (instancetype)shared;
+
 
 
 @end

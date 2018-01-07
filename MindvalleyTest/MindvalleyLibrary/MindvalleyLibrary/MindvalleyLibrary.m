@@ -8,6 +8,7 @@
 
 #import "MindvalleyLibrary.h"
 #import "DownloadManager.h"
+#import "CacheManager.h"
 
 @implementation MindvalleyLibrary
 
@@ -93,6 +94,22 @@ static MindvalleyLibrary *sharedManager = nil;
 
 - (NSArray *)currentDownloads{
     return [[DownloadManager sharedManager] currentDownloads];
+}
+
+- (void)setCache:(id)obj forKey:(NSString*)key{
+    [[CacheManager sharedManager] setCache:obj forKey:key];
+}
+- (id)getCacheForKey:(NSString *)key{
+    return [[CacheManager sharedManager] getCacheForKey:key];
+}
+- (BOOL)checkCacheForKey:(NSString *)key{
+    return [[CacheManager sharedManager] checkCacheForKey:key];
+}
+- (void)clearCacheForKey:(NSString *)key{
+    [[CacheManager sharedManager] clearCacheForKey:key];
+}
+- (void)clearAllCache{
+    [[CacheManager sharedManager] clearAllCache];
 }
 
 @end
