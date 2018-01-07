@@ -30,9 +30,10 @@ class XMLTestViewController: UIViewController {
     
     func loadXMLData()
     {
-        indicator.stopAnimating();
-        indicator.hidesWhenStopped = true;
+       
         MindvalleyLibrary.shared().getResourceFromURL(test_url, of: kResourceTypeXML, onCompletion:{(success: Bool ,error: Error?, data: Any?) in
+            self.indicator.stopAnimating();
+            self.indicator.hidesWhenStopped = true;
             if(success){
                 self.xmlPreview.text = data as! String
             }

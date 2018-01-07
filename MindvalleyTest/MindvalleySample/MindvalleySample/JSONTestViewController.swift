@@ -30,10 +30,12 @@ class JSONTestViewController: UIViewController {
     
     func loadJsonData()
     {
-        indicator.stopAnimating();
-        indicator.hidesWhenStopped = true;
+        
         MindvalleyLibrary.shared().getResourceFromURL(testUrl, of: kResourceTypeJSON, onCompletion:{(success: Bool ,error: Error?, data: Any?) in
+            self.indicator.stopAnimating();
+            self.indicator.hidesWhenStopped = true;
             if(success){
+                
                 if(data is NSArray ){
                     let array : NSArray = data as! NSArray
                     self.jsonPreview.text = array.componentsJoined(by: ",")

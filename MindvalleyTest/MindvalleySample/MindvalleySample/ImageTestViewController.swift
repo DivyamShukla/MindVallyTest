@@ -11,15 +11,36 @@ import UIKit
 class ImageTestViewController: UIViewController,UITableViewDelegate, UITableViewDataSource{
 
     @IBOutlet weak var tableView: UITableView!
+    private let refreshControl = UIRefreshControl()
     let testUrl : String = "http://pastebin.com/raw/wgkJgazE"
     
     var array = NSMutableArray()
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.title = "Load images"
-
+        
+        if #available(iOS 10.0, *) {
+            tableView.refreshControl = refreshControl
+        } else {
+            tableView.addSubview(refreshControl)
+        }
+        refreshControl.addTarget(self, action: #selector(refreshData), for: .valueChanged)
+        loadData()
+    }
+    
+    @objc func refreshData(){
+        MindvalleyLibrary.shared().clearCache(forKey: testUrl);
+        loadData()
+        self.refreshControl.endRefreshing()
+    }
+    
+    
+     func loadData(){
         MindvalleyLibrary.shared().getResourceFromURL(testUrl, of: kResourceTypeJSON, onCompletion:{(success: Bool ,error: Error?, data: Any?) in
             if(success){
                 if(data is NSArray ){
