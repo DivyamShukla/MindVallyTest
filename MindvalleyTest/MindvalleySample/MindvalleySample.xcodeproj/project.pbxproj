@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4205A1622002274E00A82FDD /* MindVallyImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4205A1612002274E00A82FDD /* MindVallyImageTableViewCell.swift */; };
+		42201CFC2000F1C30029ABC3 /* ImageTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42201CFB2000F1C30029ABC3 /* ImageTestViewController.swift */; };
+		42201CFE2000F20A0029ABC3 /* JSONTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42201CFD2000F20A0029ABC3 /* JSONTestViewController.swift */; };
+		42201D002000F23A0029ABC3 /* XMLTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42201CFF2000F23A0029ABC3 /* XMLTestViewController.swift */; };
+		B80F08722000C16000058122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80F08712000C16000058122 /* AppDelegate.swift */; };
+		B80F08772000C16000058122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80F08752000C16000058122 /* Main.storyboard */; };
+		B80F08792000C16000058122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80F08782000C16000058122 /* Assets.xcassets */; };
+		B80F087C2000C16000058122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80F087A2000C16000058122 /* LaunchScreen.storyboard */; };
+		B80F08872000C16100058122 /* MindvalleySampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80F08862000C16100058122 /* MindvalleySampleTests.swift */; };
+		B80F08982000C82100058122 /* libMindvalleyLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B80F08972000C72A00058122 /* libMindvalleyLibrary.a */; };
+		B80F089E2000DBF100058122 /* MindValleySamleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80F089D2000DBF100058122 /* MindValleySamleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B80F08832000C16100058122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B80F08662000C16000058122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B80F086D2000C16000058122;
+			remoteInfo = MindvalleySample;
+		};
+		B80F08962000C72A00058122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B80F08922000C72A00058122 /* MindvalleyLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B80F08592000C06E00058122;
+			remoteInfo = MindvalleyLibrary;
+		};
+		B80F08992000C82900058122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B80F08922000C72A00058122 /* MindvalleyLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B80F08582000C06E00058122;
+			remoteInfo = MindvalleyLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4205A1612002274E00A82FDD /* MindVallyImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindVallyImageTableViewCell.swift; sourceTree = "<group>"; };
+		42201CFB2000F1C30029ABC3 /* ImageTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestViewController.swift; sourceTree = "<group>"; };
+		42201CFD2000F20A0029ABC3 /* JSONTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTestViewController.swift; sourceTree = "<group>"; };
+		42201CFF2000F23A0029ABC3 /* XMLTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLTestViewController.swift; sourceTree = "<group>"; };
+		B80F086E2000C16000058122 /* MindvalleySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindvalleySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80F08712000C16000058122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B80F08762000C16000058122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B80F08782000C16000058122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B80F087B2000C16000058122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B80F087D2000C16100058122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80F08822000C16100058122 /* MindvalleySampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindvalleySampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80F08862000C16100058122 /* MindvalleySampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindvalleySampleTests.swift; sourceTree = "<group>"; };
+		B80F08882000C16100058122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80F08922000C72A00058122 /* MindvalleyLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MindvalleyLibrary.xcodeproj; path = ../MindvalleyLibrary/MindvalleyLibrary.xcodeproj; sourceTree = "<group>"; };
+		B80F089C2000D17500058122 /* MindvalleySample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MindvalleySample-Bridging-Header.h"; sourceTree = "<group>"; };
+		B80F089D2000DBF100058122 /* MindValleySamleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MindValleySamleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B80F086B2000C16000058122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80F08982000C82100058122 /* libMindvalleyLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80F087F2000C16100058122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B80F08652000C16000058122 = {
+			isa = PBXGroup;
+			children = (
+				B80F08702000C16000058122 /* MindvalleySample */,
+				B80F08912000C6DD00058122 /* MindvalleyLibrary */,
+				B80F08852000C16100058122 /* MindvalleySampleTests */,
+				B80F086F2000C16000058122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B80F086F2000C16000058122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B80F086E2000C16000058122 /* MindvalleySample.app */,
+				B80F08822000C16100058122 /* MindvalleySampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80F08702000C16000058122 /* MindvalleySample */ = {
+			isa = PBXGroup;
+			children = (
+				B80F08712000C16000058122 /* AppDelegate.swift */,
+				B80F08752000C16000058122 /* Main.storyboard */,
+				B80F08782000C16000058122 /* Assets.xcassets */,
+				B80F087A2000C16000058122 /* LaunchScreen.storyboard */,
+				B80F087D2000C16100058122 /* Info.plist */,
+				B80F089C2000D17500058122 /* MindvalleySample-Bridging-Header.h */,
+				B80F089D2000DBF100058122 /* MindValleySamleViewController.swift */,
+				42201CFB2000F1C30029ABC3 /* ImageTestViewController.swift */,
+				42201CFD2000F20A0029ABC3 /* JSONTestViewController.swift */,
+				42201CFF2000F23A0029ABC3 /* XMLTestViewController.swift */,
+				4205A1612002274E00A82FDD /* MindVallyImageTableViewCell.swift */,
+			);
+			path = MindvalleySample;
+			sourceTree = "<group>";
+		};
+		B80F08852000C16100058122 /* MindvalleySampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B80F08862000C16100058122 /* MindvalleySampleTests.swift */,
+				B80F08882000C16100058122 /* Info.plist */,
+			);
+			path = MindvalleySampleTests;
+			sourceTree = "<group>";
+		};
+		B80F08912000C6DD00058122 /* MindvalleyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				B80F08922000C72A00058122 /* MindvalleyLibrary.xcodeproj */,
+			);
+			name = MindvalleyLibrary;
+			sourceTree = "<group>";
+		};
+		B80F08932000C72A00058122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B80F08972000C72A00058122 /* libMindvalleyLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B80F086D2000C16000058122 /* MindvalleySample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80F088B2000C16100058122 /* Build configuration list for PBXNativeTarget "MindvalleySample" */;
+			buildPhases = (
+				B80F086A2000C16000058122 /* Sources */,
+				B80F086B2000C16000058122 /* Frameworks */,
+				B80F086C2000C16000058122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B80F089A2000C82900058122 /* PBXTargetDependency */,
+			);
+			name = MindvalleySample;
+			productName = MindvalleySample;
+			productReference = B80F086E2000C16000058122 /* MindvalleySample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B80F08812000C16100058122 /* MindvalleySampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80F088E2000C16100058122 /* Build configuration list for PBXNativeTarget "MindvalleySampleTests" */;
+			buildPhases = (
+				B80F087E2000C16100058122 /* Sources */,
+				B80F087F2000C16100058122 /* Frameworks */,
+				B80F08802000C16100058122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B80F08842000C16100058122 /* PBXTargetDependency */,
+			);
+			name = MindvalleySampleTests;
+			productName = MindvalleySampleTests;
+			productReference = B80F08822000C16100058122 /* MindvalleySampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B80F08662000C16000058122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mindvalley;
+				TargetAttributes = {
+					B80F086D2000C16000058122 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+					};
+					B80F08812000C16100058122 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B80F086D2000C16000058122;
+					};
+				};
+			};
+			buildConfigurationList = B80F08692000C16000058122 /* Build configuration list for PBXProject "MindvalleySample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B80F08652000C16000058122;
+			productRefGroup = B80F086F2000C16000058122 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B80F08932000C72A00058122 /* Products */;
+					ProjectRef = B80F08922000C72A00058122 /* MindvalleyLibrary.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B80F086D2000C16000058122 /* MindvalleySample */,
+				B80F08812000C16100058122 /* MindvalleySampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B80F08972000C72A00058122 /* libMindvalleyLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMindvalleyLibrary.a;
+			remoteRef = B80F08962000C72A00058122 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B80F086C2000C16000058122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80F087C2000C16000058122 /* LaunchScreen.storyboard in Resources */,
+				B80F08792000C16000058122 /* Assets.xcassets in Resources */,
+				B80F08772000C16000058122 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80F08802000C16100058122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B80F086A2000C16000058122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42201D002000F23A0029ABC3 /* XMLTestViewController.swift in Sources */,
+				42201CFE2000F20A0029ABC3 /* JSONTestViewController.swift in Sources */,
+				B80F08722000C16000058122 /* AppDelegate.swift in Sources */,
+				B80F089E2000DBF100058122 /* MindValleySamleViewController.swift in Sources */,
+				4205A1622002274E00A82FDD /* MindVallyImageTableViewCell.swift in Sources */,
+				42201CFC2000F1C30029ABC3 /* ImageTestViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80F087E2000C16100058122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80F08872000C16100058122 /* MindvalleySampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B80F08842000C16100058122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B80F086D2000C16000058122 /* MindvalleySample */;
+			targetProxy = B80F08832000C16100058122 /* PBXContainerItemProxy */;
+		};
+		B80F089A2000C82900058122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MindvalleyLibrary;
+			targetProxy = B80F08992000C82900058122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B80F08752000C16000058122 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80F08762000C16000058122 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B80F087A2000C16000058122 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B80F087B2000C16000058122 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B80F08892000C16100058122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B80F088A2000C16100058122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B80F088C2000C16100058122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					$SOURCE_ROOT/include,
+					$SOURCE_ROOT/include/MindvalleyLibrary,
+				);
+				INFOPLIST_FILE = MindvalleySample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$SOURCE_ROOT\n/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mindvalley.MindvalleySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MindvalleySample/MindvalleySample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B80F088D2000C16100058122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					$SOURCE_ROOT/include,
+					$SOURCE_ROOT/include/MindvalleyLibrary,
+				);
+				INFOPLIST_FILE = MindvalleySample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$SOURCE_ROOT\n/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mindvalley.MindvalleySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MindvalleySample/MindvalleySample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B80F088F2000C16100058122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MindvalleySampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mindvalley.MindvalleySampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindvalleySample.app/MindvalleySample";
+			};
+			name = Debug;
+		};
+		B80F08902000C16100058122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MindvalleySampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mindvalley.MindvalleySampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindvalleySample.app/MindvalleySample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B80F08692000C16000058122 /* Build configuration list for PBXProject "MindvalleySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80F08892000C16100058122 /* Debug */,
+				B80F088A2000C16100058122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80F088B2000C16100058122 /* Build configuration list for PBXNativeTarget "MindvalleySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80F088C2000C16100058122 /* Debug */,
+				B80F088D2000C16100058122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80F088E2000C16100058122 /* Build configuration list for PBXNativeTarget "MindvalleySampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80F088F2000C16100058122 /* Debug */,
+				B80F08902000C16100058122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B80F08662000C16000058122 /* Project object */;
+}

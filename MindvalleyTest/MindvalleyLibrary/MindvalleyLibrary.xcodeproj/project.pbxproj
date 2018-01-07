@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42201CF82000DB280029ABC3 /* DownloadObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42201CF22000DB270029ABC3 /* DownloadObject.m */; };
+		42201CF92000DB280029ABC3 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42201CF42000DB270029ABC3 /* CacheManager.m */; };
+		42201CFA2000DB280029ABC3 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42201CF72000DB280029ABC3 /* DownloadManager.m */; };
+		B80F085E2000C06E00058122 /* MindvalleyLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B80F085D2000C06E00058122 /* MindvalleyLibrary.m */; };
+		B80F085F2000C06E00058122 /* MindvalleyLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B80F085C2000C06E00058122 /* MindvalleyLibrary.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B80F08572000C06E00058122 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B80F085F2000C06E00058122 /* MindvalleyLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42201CF22000DB270029ABC3 /* DownloadObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadObject.m; sourceTree = "<group>"; };
+		42201CF32000DB270029ABC3 /* DownloadObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadObject.h; sourceTree = "<group>"; };
+		42201CF42000DB270029ABC3 /* CacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
+		42201CF52000DB270029ABC3 /* CacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
+		42201CF62000DB280029ABC3 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		42201CF72000DB280029ABC3 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
+		B80F08592000C06E00058122 /* libMindvalleyLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMindvalleyLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80F085C2000C06E00058122 /* MindvalleyLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MindvalleyLibrary.h; sourceTree = "<group>"; };
+		B80F085D2000C06E00058122 /* MindvalleyLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindvalleyLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B80F08562000C06E00058122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B80F08502000C06E00058122 = {
+			isa = PBXGroup;
+			children = (
+				B80F085B2000C06E00058122 /* MindvalleyLibrary */,
+				B80F085A2000C06E00058122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B80F085A2000C06E00058122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B80F08592000C06E00058122 /* libMindvalleyLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B80F085B2000C06E00058122 /* MindvalleyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				42201CF52000DB270029ABC3 /* CacheManager.h */,
+				42201CF42000DB270029ABC3 /* CacheManager.m */,
+				42201CF62000DB280029ABC3 /* DownloadManager.h */,
+				42201CF72000DB280029ABC3 /* DownloadManager.m */,
+				42201CF32000DB270029ABC3 /* DownloadObject.h */,
+				42201CF22000DB270029ABC3 /* DownloadObject.m */,
+				B80F085C2000C06E00058122 /* MindvalleyLibrary.h */,
+				B80F085D2000C06E00058122 /* MindvalleyLibrary.m */,
+			);
+			path = MindvalleyLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B80F08582000C06E00058122 /* MindvalleyLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80F08622000C06E00058122 /* Build configuration list for PBXNativeTarget "MindvalleyLibrary" */;
+			buildPhases = (
+				B80F08552000C06E00058122 /* Sources */,
+				B80F08562000C06E00058122 /* Frameworks */,
+				B80F08572000C06E00058122 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindvalleyLibrary;
+			productName = MindvalleyLibrary;
+			productReference = B80F08592000C06E00058122 /* libMindvalleyLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B80F08512000C06E00058122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mindvalley;
+				TargetAttributes = {
+					B80F08582000C06E00058122 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B80F08542000C06E00058122 /* Build configuration list for PBXProject "MindvalleyLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B80F08502000C06E00058122;
+			productRefGroup = B80F085A2000C06E00058122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B80F08582000C06E00058122 /* MindvalleyLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B80F08552000C06E00058122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42201CF82000DB280029ABC3 /* DownloadObject.m in Sources */,
+				42201CF92000DB280029ABC3 /* CacheManager.m in Sources */,
+				B80F085E2000C06E00058122 /* MindvalleyLibrary.m in Sources */,
+				42201CFA2000DB280029ABC3 /* DownloadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B80F08602000C06E00058122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B80F08612000C06E00058122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B80F08632000C06E00058122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B80F08642000C06E00058122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B80F08542000C06E00058122 /* Build configuration list for PBXProject "MindvalleyLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80F08602000C06E00058122 /* Debug */,
+				B80F08612000C06E00058122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80F08622000C06E00058122 /* Build configuration list for PBXNativeTarget "MindvalleyLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B80F08632000C06E00058122 /* Debug */,
+				B80F08642000C06E00058122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B80F08512000C06E00058122 /* Project object */;
+}
